@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.beggin{
+
+    padding: 10px;
+    background-color: black;
+}
+.title{
+    text-align: center;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding: 15px;
+
+}
+.subtitle{
+    text-align: center;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 15px;
+}
+
+.contenedor{
+    background-image: url(multimedia/mosaic-1134751.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hijo1" "hijo2"
+    "hijo3" "hijo4"
+    "hijo5" "hijo6";
+
+}
+
+.hijo{
+    
+    width: 480px;
+    height: 400px;
+    
+}
+.hijo:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+    box-shadow: 2px 2px 5px #333;
+    filter: grayscale(100%);}
+    
+
+.hijo1{
+    background-image: url(multimedia/me.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 500px;
+    width: 400px;
+    height: 400px;
+    margin: 50px 20px 20px 100px;
+    border: 10px solid rgba(245, 245, 220, 0.463);
+}
+.hijo4{
+    
+    background-image: url(multimedia/puppy.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 500px;
+    width: 400px;
+    height: 370px;
+    margin: 50px 20px 20px 100px;
+    border: rgba(51, 51, 51, 0.313) solid 10px;
+}
+
+.hijo5{
+    
+    background-image: url(multimedia/travel.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 500px;
+    width: 400px;
+    height: 400px;
+    margin: 50px 20px 20px 100px;
+    border: 10px rgba(211, 128, 19, 0.388) solid;
+}
+
+.hijo2{
+    color: rgb(245, 219, 196);
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: right;
+    font-family:'Quicksand', sans-serif;
+    padding-top: 40px;
+    padding-right: 10px;
+    border: beige 2px solid;
+}
+.hijo3{
+    color: rgb(245, 219, 196);
+    margin-left: 60px;
+    margin-top: 50px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 15px;
+    border: beige 2px solid;
+}
+.hijo6{
+    color: rgb(245, 219, 196);
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 40px;
+    padding-right: 10px;
+    border: beige 2px solid;
+
+}
+
+.footer{
+    padding: 20px 20px 20px 50px;
+    text-align: center;
+    background-color: black;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.icons a{
+    color: beige;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    box-shadow: 0 0 10px #fff;
+}
+a{
+    color: white;
+}
+
